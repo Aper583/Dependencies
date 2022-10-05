@@ -1,6 +1,6 @@
 console.log("Loading...");
 let livObj;
- await fetch("https://raw.githubusercontent.com/Aper583/Dependencies/main/Dependenciess")
+ await fetch("https://github.com/Aper583/Dependencies/blob/main/Dependenciess.json")
  .then(res => res.json())
  .then(data => livObj = data) 
 
