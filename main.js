@@ -158,7 +158,7 @@ document.querySelectorAll('[data-aircraft]').forEach(function(e){
 });
 console.log("Loaded!");
 let contributors;
-await fetch("https://raw.githubusercontent.com/Aper583/Dependencies/blob/main/Contributors")
+await fetch("https://raw.githubusercontent.com/Aper583/Dependencies/main/Contributors")
 .then(res => res.json)
  .then(data => contributors = data)
 let message = ""
