@@ -1,6 +1,6 @@
 console.log("Loading...");
 let livObj;
- await fetch("https://raw.githubusercontent.com/Aper583/main/dependencies/dependenciess")
+ await fetch("https://raw.githubusercontent.com/Aper583/Dependencies/main/Dependenciess")
  .then(res => res.json())
  .then(data => livObj = data) 
 
@@ -158,8 +158,8 @@ document.querySelectorAll('[data-aircraft]').forEach(function(e){
 });
 console.log("Loaded!");
 let contributors;
-await fetch("https://raw.githubusercontent.com/Aper583/main/Dependencies/Contibutors")
-.then(res => res.json())
+await fetch("https://raw.githubusercontent.com/Aper583/Dependencies/blob/main/Contributors")
+.then(res => res.json)
  .then(data => contributors = data)
 let message = ""
 setTimeout(function(){
